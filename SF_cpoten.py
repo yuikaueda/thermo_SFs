@@ -13,10 +13,10 @@ ax.axes.xaxis.set_ticks([])
 ax.axes.yaxis.set_ticks([])
 
 ax.set_yticks([0,1,2])
-ax.set_yticklabels(['0','$\mu_{SF} ^{c}$','$\mu_{SF} ^{0}$'])
+ax.set_yticklabels(['0','$\mu_{SF} ^{c}(\infty)$','$\mu_{SF} ^{0}(0)$'])
 
 plt.xlabel('F', fontsize=20)
-plt.ylabel('$\mu_{SF}$', fontsize=20)
+plt.ylabel('$\mu_{SF} ^{0}$', fontsize=20)
 ax.plot(x,y,color='black')
 
 plt.show()
